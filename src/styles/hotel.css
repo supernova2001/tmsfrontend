@@ -1,0 +1,161 @@
+.hotel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center !important;
+    width: 100%; 
+    max-width: 1600px;
+    margin: 0 auto !important;
+    color: aliceblue;
+}
+
+.hotelName {
+    color: var(--secondary-color);
+}
+
+.hotel-image {
+    text-align: center;
+    width: 100%;
+}
+
+.hotel-image img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.hotel-details {
+    margin: 20px 0;
+    background: var(--secondary-color);
+    padding: 15px;
+    border-radius: 5px;
+    width: 80%;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+}
+
+.hotel-details h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.hotel-details.description,
+.hotel-details.address,
+.hotel-details.reviews {
+    order: 1;
+}
+
+.hotel-details.reviews p,
+.hotel-details.reviews div {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.hotel-details.reviews div:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.review-submission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: aliceblue;
+}
+
+.review-dropdown,
+.review-textarea {
+    width: 90%;
+    max-width: 600px; 
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid aliceblue;
+    color: aliceblue;
+}
+
+.review-dropdown option {
+    background-color: #333; 
+    color: aliceblue;
+}
+
+.review-textarea {
+    height: 150px; 
+    resize: vertical; 
+}
+
+.review-submit-btn {
+    margin-top: 15px; 
+}
+
+.booking-options {
+    margin-top: 15px;
+    background: var(--secondary-color);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid aliceblue;
+    color: aliceblue;
+}
+
+.booking-options h3,
+.booking-options label {
+    color: aliceblue;
+}
+
+.booking-options input[type="date"], 
+.booking-options input[type="number"] {
+    margin: 10px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid aliceblue;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: aliceblue;
+}
+
+.booking-options p {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.hotel-container .hotel-details.reviews,
+.hotel-container .hotel-details.reviews p,
+.hotel-container .hotel-details.reviews div {
+    color: aliceblue; 
+}
+
+
+.hotel-container .hotel-details.reviews p,
+.hotel-container .hotel-details.reviews div {
+    color: aliceblue;
+}
+
+
+.hotel-container .review-submission,
+.hotel-container .review-submission * { 
+    color: aliceblue;
+}
+
+
+.hotel-container .review-dropdown,
+.hotel-container .review-textarea {
+    color: aliceblue;
+}
+
+
+.hotel-container .review-dropdown option {
+    background-color: #333;
+    color: aliceblue;
+}
